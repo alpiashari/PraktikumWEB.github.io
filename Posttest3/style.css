@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.mainpage{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+.navbar{
+    height: 100px;
+    width: 100%;
+    background: darkgoldenrod;
+}
+
+.logo{
+    width: 120px;
+    height: auto;
+    padding: 10px 10px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+    line-height: 100px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px;
+    font-size: 18px;
+    transition: .7s;
+}
+
+.navbar ul.dark-mode li a.active,
+.navbar ul.dark-mode li a:hover{
+    background: gray;
+    color: darkgoldenrod;
+    border-radius: 2px;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: white;
+    color: darkgoldenrod;
+    border-radius: 18px;
+}
+
+.content{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.content h1{
+    font-size: 50px;
+    color: darkgoldenrod;
+    margin-bottom: 20px;
+}
+
+.content p{
+    color: white;
+    line-height: 25px;
+}
+
+.content h2{
+    font-size: 20px;
+    color: darkgoldenrod;
+}
+
+.content a{
+    background: darkgoldenrod;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.content a.active,
+.content a:hover{
+    background: white;
+    color: darkgoldenrod;
+    border-radius: 100px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 220px;
+}
+
+
+.images img{
+    height: 90%;
+    position: absolute;
+    left: 90%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    transition: bottom 3s, left 3s;
+}
+
+.images:hover .darkgoldenrod{
+    left: 79%;
+}
+
+i{
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgoldenrod;
+    color: white;
+    text-align: center;
+}
+
