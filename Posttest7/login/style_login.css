@@ -1,0 +1,98 @@
+
+table {
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 70%;
+    margin: 10px auto 10px auto;
+  }
+  table thead th {
+      background-color: #DDEFEF;
+      border: solid 1px black;
+      color: #336B6B;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+  }
+  
+  table thead{
+      background-color: #ebeef1;
+      border-bottom: 1px solid #d3dae0;
+  }
+  
+  table thead td{
+      padding: 10px 30px;
+      font-weight: bold;
+      color: #000000;
+      font-size: 14px;
+  }
+  
+  table tbody tr {
+  border-bottom: 1px solid #d3dae0;
+  background-color: #FFFFFF;
+  }
+  
+  .th {
+      background-color: #DDEFEF;
+      border: solid 1px black;
+      color: #336B6B;
+      padding: 20px 40px;
+      text-align: center;
+      text-decoration: none;
+  }
+  
+  table tbody td {
+      color: #333;
+      padding: 10px;
+  }
+  
+  .input-group {
+    margin: 50px 10px 50px 10px;
+    border: 10px 10px 10px 10px;
+  }
+  
+  .input-group label {
+    display: block;
+    text-align: center;
+    margin: 10px;  
+  }
+  
+  .input-group table {
+      display: block;
+      text-align: center;
+      border: 10px;
+  }
+  
+  .input-group input {
+    width: 93%;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  main {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding-left: 30%;
+    padding-right: 30%;
+    width: 40%;
+    text-align: center;
+    font-size: 60%;
+    overflow: auto;
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  
+  .header {
+    width: 40%;
+    margin: 50px auto 0px;
+    color: white;
+    background: darkgoldenrod;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-radius: 10px 10px 0px 0px;
+  }
